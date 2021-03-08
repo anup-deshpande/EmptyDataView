@@ -3,28 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		768C709625F6C26100F51C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768C709525F6C26100F51C86 /* AppDelegate.swift */; };
 		768C709825F6C26100F51C86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768C709725F6C26100F51C86 /* SceneDelegate.swift */; };
-		768C709A25F6C26100F51C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768C709925F6C26100F51C86 /* ViewController.swift */; };
+		768C709A25F6C26100F51C86 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768C709925F6C26100F51C86 /* MainViewController.swift */; };
 		768C709D25F6C26100F51C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768C709B25F6C26100F51C86 /* Main.storyboard */; };
 		768C709F25F6C26400F51C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768C709E25F6C26400F51C86 /* Assets.xcassets */; };
 		768C70A225F6C26400F51C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768C70A025F6C26400F51C86 /* LaunchScreen.storyboard */; };
+		768C70B525F6C59900F51C86 /* EmptyDataView in Frameworks */ = {isa = PBXBuildFile; productRef = 768C70B425F6C59900F51C86 /* EmptyDataView */; };
+		768C70B925F6C6E800F51C86 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768C70B825F6C6E700F51C86 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		768C709225F6C26100F51C86 /* EmptyDataView-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EmptyDataView-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		768C709525F6C26100F51C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		768C709725F6C26100F51C86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		768C709925F6C26100F51C86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		768C709925F6C26100F51C86 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		768C709C25F6C26100F51C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		768C709E25F6C26400F51C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		768C70A125F6C26400F51C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		768C70A325F6C26400F51C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		768C70B125F6C31D00F51C86 /* EmptyDataView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EmptyDataView; sourceTree = "<group>"; };
+		768C70B825F6C6E700F51C86 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				768C70B525F6C59900F51C86 /* EmptyDataView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +48,7 @@
 				768C70B125F6C31D00F51C86 /* EmptyDataView */,
 				768C709425F6C26100F51C86 /* EmptyDataView-Demo */,
 				768C709325F6C26100F51C86 /* Products */,
+				768C70B325F6C59900F51C86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +65,7 @@
 			children = (
 				768C70AC25F6C2A100F51C86 /* App Delegate */,
 				768C70AF25F6C2F300F51C86 /* View Controllers */,
+				768C70BB25F6C6ED00F51C86 /* Data Source */,
 				768C709B25F6C26100F51C86 /* Main.storyboard */,
 				768C709E25F6C26400F51C86 /* Assets.xcassets */,
 				768C70A025F6C26400F51C86 /* LaunchScreen.storyboard */,
@@ -80,9 +86,24 @@
 		768C70AF25F6C2F300F51C86 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				768C709925F6C26100F51C86 /* ViewController.swift */,
+				768C709925F6C26100F51C86 /* MainViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		768C70B325F6C59900F51C86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		768C70BB25F6C6ED00F51C86 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				768C70B825F6C6E700F51C86 /* Colors.swift */,
+			);
+			path = "Data Source";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,6 +122,9 @@
 			dependencies = (
 			);
 			name = "EmptyDataView-Demo";
+			packageProductDependencies = (
+				768C70B425F6C59900F51C86 /* EmptyDataView */,
+			);
 			productName = "EmptyDataView-Demo";
 			productReference = 768C709225F6C26100F51C86 /* EmptyDataView-Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -155,7 +179,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				768C709A25F6C26100F51C86 /* ViewController.swift in Sources */,
+				768C709A25F6C26100F51C86 /* MainViewController.swift in Sources */,
+				768C70B925F6C6E800F51C86 /* Colors.swift in Sources */,
 				768C709625F6C26100F51C86 /* AppDelegate.swift in Sources */,
 				768C709825F6C26100F51C86 /* SceneDelegate.swift in Sources */,
 			);
@@ -359,6 +384,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		768C70B425F6C59900F51C86 /* EmptyDataView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EmptyDataView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 768C708A25F6C26100F51C86 /* Project object */;
 }

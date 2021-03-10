@@ -2,7 +2,14 @@
 
 EmptyDataView enables you to show user friendly views when table data is empty.
 
-<p align="center">
+<p>
+    <a href="https://github.com/anup-deshpande/EmptyDataView/blob/main/LICENSE.md"><img alt="MIT license" src="https://img.shields.io/github/license/anup-deshpande/EmptyDataView"></a>
+    <img alt="Swift Compatibility" src="https://img.shields.io/badge/Swift Compatibility-5.3-blue">
+   <img alt="Platform Compatibility" src="https://img.shields.io/badge/Platform Compatibility-iOS-orange">
+</p>
+
+
+<p align = "center">
     <img src="https://user-images.githubusercontent.com/42949670/110160248-c2780780-7db9-11eb-9036-e7f36ce5b02b.jpg" width="300" height="432" />
 </p>
 

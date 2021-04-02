@@ -1,0 +1,22 @@
+{
+  "name": "EmptyDataView",
+  "version": "0.1.0",
+  "summary": "A short description of EmptyDataView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/deshpande.anup24@gmail.com/EmptyDataView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "deshpande.anup24@gmail.com": "deshpande.anup24@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/deshpande.anup24@gmail.com/EmptyDataView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "EmptyDataView/Classes/**/*"
+}
